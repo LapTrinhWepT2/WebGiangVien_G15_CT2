@@ -5,7 +5,7 @@
    
    <sql:setDataSource
 	driver="com.mysql.jdbc.Driver"
-	url="jdbc:mysql://localhost/webcanhan"
+	url="jdbc:mysql://localhost/WebCaNhan"
 	user="root"
 	password="9542"/>
 	<sql:query var="items" sql="SELECT * FROM View_ThongBao"/>

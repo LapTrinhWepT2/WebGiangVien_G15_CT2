@@ -1,0 +1,103 @@
+/* Dat */
+.input-group-addon {
+    color: #fff;
+    background: #3276B1;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff ;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: lightblue ;
+}
+#header h1{
+	font-family: fantasy;
+}
+#header h3{
+	font-family: Times-New-Roman;
+	padding-left: 30px;
+}
+#header h4{
+	font-family: Times-New-Roman;
+	padding-left: 45px;
+}
+#footer {
+	background: #F1F1F1;
+	margin-top: 60px;
+	padding-top: 20px;
+}
+.site-footer{
+	background-color: #222;
+	color: #fff;
+	margin-top: 25px;
+	padding-top: 20px;
+}
+.bottom-footer{
+	border-top: 1px solid #b2b2b2;
+	margin-top: 10px;
+	padding-top: 10px;
+	color: #b2b2b2;
+}
+
+.footer-nav {
+	text-align: right;
+	list-style: none;
+}
+.footer-nav li{
+	display: inline;
+	padding: 0px 5px;
+}
+.footer-nav li:not(:first-child):before{
+	content: '|';
+	padding:  0px 5px;
+}
+.footer-nav a{
+	color:  #b2b2b2;
+}
+.footer-nav a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+			/* Dat-Phần hình chậy */
+.carousel-inner > .item > img,
+	  	.carousel-inner > .item > a > img {
+	      	width: 70%;
+	      	margin: auto;
+}
+#marquee_HP {
+	font-family: Times-New-Roman;
+}
+#header img{
+	width: 150px;
+	height: 150px;
+}
+
+/* Phuoc */
+input.ng-dirty{
+   border-bottom: 1px solid yellow;
+}
+input.ng-invalid.ng-dirty{
+   border-bottom: 1px solid red;
+}
+input.ng-valid.ng-dirty{
+   border-bottom: 1px solid green;
+}
+input.ng-invalid-minlength.ng-dirty{
+   border-bottom: 1px solid blue;
+}
+input.ng-invalid-maxlength.ng-dirty{
+   border-bottom: 1px solid blue;
+}
+div.sourcetext{
+	background: #ecf9f9;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    word-wrap: break-word;
+}
+div.exBrowser {
+    background: #fff;
+    border: 1px dashed #ddd;
+    margin: 5px;
+    padding: 10px;
+}
